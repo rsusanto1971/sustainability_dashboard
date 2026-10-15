@@ -22,6 +22,13 @@
   --s4: #eda100;
   --s5: #e87ba4;
   --goal: #0b0b0b;
+  --accent-strong: #1c5cab;
+  --on-accent: #ffffff;
+  --ok: #0ca30c;
+  --ok-text: #006300;
+  --ok-bg: #e9f7e9;
+  --warn-text: #9a3d12;
+  --error: #c42f2f;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme='light']) {
@@ -46,6 +53,13 @@
     --s4: #c98500;
     --s5: #d55181;
     --goal: #f0efec;
+    --accent-strong: #3987e5;
+    --on-accent: #0d0d0d;
+    --ok: #0ca30c;
+    --ok-text: #5fd35f;
+    --ok-bg: #0f2a10;
+    --warn-text: #f3a37f;
+    --error: #f07a7a;
   }
 }
 :root[data-theme='dark'] {
@@ -70,6 +84,13 @@
   --s4: #c98500;
   --s5: #d55181;
   --goal: #f0efec;
+  --accent-strong: #3987e5;
+  --on-accent: #0d0d0d;
+  --ok: #0ca30c;
+  --ok-text: #5fd35f;
+  --ok-bg: #0f2a10;
+  --warn-text: #f3a37f;
+  --error: #f07a7a;
 }
 
 * { box-sizing: border-box; }
@@ -116,7 +137,7 @@ p { margin: 0 0 8px; }
 }
 .nav a.active { background: var(--page); color: var(--text); font-weight: 600; box-shadow: inset 0 -2px 0 var(--accent); }
 
-main { max-width: 1200px; margin: 0 auto; padding: 20px 16px 40px; }
+main { max-width: 1200px; margin: 0 auto; padding-block: 20px 40px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
 .page-head { margin-bottom: 16px; }
 .page-head p { color: var(--text-2); }
 
@@ -239,3 +260,38 @@ tr.gap td { color: var(--muted); }
   .goal-big { font-size: 2rem; }
   h1 { font-size: 1.3rem; }
 }
+
+/* Enter data */
+.status-row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+.chip { display: inline-flex; align-items: center; gap: 4px; padding: 3px 10px; border-radius: 999px; font-size: 0.82rem; font-weight: 600; border: 1px solid var(--border); background: var(--surface); }
+.chip-ok { border-color: var(--ok); color: var(--ok-text); }
+.chip-gap { border-color: var(--warn-border); color: var(--warn-text); }
+.chip-lock { border-color: var(--axis); color: var(--text-2); }
+.fields { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr)); gap: 12px; }
+.field { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.field label { font-weight: 600; font-size: 0.88rem; }
+.field .unit { font-weight: 400; color: var(--muted); }
+.field input {
+  font: inherit; font-variant-numeric: tabular-nums; text-align: right;
+  padding: 8px 10px; border: 1px solid var(--axis); border-radius: 6px;
+  background: var(--page); color: var(--text); width: 100%;
+}
+.field input::placeholder { color: var(--muted); text-align: right; }
+.field input:focus-visible, button:focus-visible, select:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.field input[aria-invalid='true'] { border-color: var(--error); border-width: 2px; }
+.field input:disabled { opacity: 0.6; }
+.field-msg { min-height: 1.2em; font-size: 0.78rem; }
+.error-text { color: var(--error); font-weight: 600; }
+.warn-text { color: var(--warn-text); font-weight: 600; }
+.muted-text { color: var(--muted); }
+.preview { display: flex; flex-wrap: wrap; gap: 6px 16px; margin-top: 14px; padding-top: 10px; border-top: 1px solid var(--grid); font-size: 0.85rem; color: var(--text-2); font-variant-numeric: tabular-nums; }
+.actions { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 4px 0 16px; }
+button.primary { background: var(--accent-strong); border-color: var(--accent-strong); color: var(--on-accent); font-weight: 600; padding: 8px 14px; }
+button.primary:disabled { opacity: 0.45; cursor: not-allowed; }
+button.danger { border-color: var(--error); color: var(--error); font-weight: 600; }
+button.linklike { border: 0; background: none; padding: 0; color: var(--accent); text-decoration: underline; font-size: inherit; }
+.review { border-color: var(--accent); }
+.review h2 { margin-bottom: 8px; }
+.confirm { display: flex; align-items: center; gap: 8px; margin: 12px 0 4px; font-weight: 600; }
+.flash { background: var(--ok-bg); border: 1px solid var(--ok); border-radius: 8px; padding: 10px 14px; margin-bottom: 12px; font-weight: 600; }
+.flash-warn { background: var(--warn-bg); border-color: var(--warn-border); }

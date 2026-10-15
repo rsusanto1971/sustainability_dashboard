@@ -6,6 +6,7 @@ const LINKS = [
   { to: '/waste', label: 'Waste' },
   { to: '/utilities', label: 'Utilities' },
   { to: '/targets', label: 'Targets' },
+  { to: '/enter', label: 'Enter data' },
 ];
 
 export default function Layout() {

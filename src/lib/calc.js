@@ -263,3 +263,22 @@ export function utilityYearToDate(utilIdx, siteIds, thisYearMonths, lastYearMont
     missing,
   };
 }
+
+// ---------------------------------------------------------------------------
+// Outlier check (spec section 3): warn when a value is more than 3 times the
+// site's average for the last 12 months. It warns; it never blocks.
+// ---------------------------------------------------------------------------
+
+/**
+ * priorValues: the site's values for the same stream or utility type over the
+ * 12 months before the entry month (missing months already left out).
+ * Returns { average, ratio, isOutlier }, or null when there is no history.
+ */
+export function outlierCheck(value, priorValues, factor = 3) {
+  const vals = priorValues.filter(has);
+  if (!vals.length || !has(value)) return null;
+  const average = vals.reduce((a, b) => a + b, 0) / vals.length;
+  if (average === 0) return { average, ratio: null, isOutlier: value > 0 };
+  const ratio = value / average;
+  return { average, ratio, isOutlier: ratio > factor };
+}

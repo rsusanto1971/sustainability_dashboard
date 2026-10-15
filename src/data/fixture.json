@@ -1,0 +1,5757 @@
+{
+ "meta": {
+  "notice": "Illustrative data. Not real company figures.",
+  "seed": 20250101,
+  "months": {
+   "first": "2024-10-01",
+   "last": "2026-09-01"
+  }
+ },
+ "settings": {
+  "goal_percent": 99,
+  "wte_counts_as_diverted": true
+ },
+ "sites": [
+  {
+   "id": "plant-a",
+   "name": "Plant A",
+   "region": "Midwest",
+   "active": true
+  },
+  {
+   "id": "plant-b",
+   "name": "Plant B",
+   "region": "Southeast",
+   "active": true
+  },
+  {
+   "id": "plant-c",
+   "name": "Plant C",
+   "region": "Northeast",
+   "active": true
+  },
+  {
+   "id": "plant-d",
+   "name": "Plant D",
+   "region": "Southwest",
+   "active": true
+  },
+  {
+   "id": "plant-e",
+   "name": "Plant E",
+   "region": "West",
+   "active": true
+  }
+ ],
+ "waste": [
+  {
+   "site_id": "plant-a",
+   "month": "2024-10-01",
+   "stream": "recycling",
+   "pounds": 483770
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2024-10-01",
+   "stream": "reuse",
+   "pounds": 93160
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2024-10-01",
+   "stream": "composting",
+   "pounds": 38879
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2024-10-01",
+   "stream": "wte",
+   "pounds": 77767
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2024-10-01",
+   "stream": "landfill",
+   "pounds": 17342
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2024-11-01",
+   "stream": "recycling",
+   "pounds": 381125
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2024-11-01",
+   "stream": "reuse",
+   "pounds": 73279
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2024-11-01",
+   "stream": "composting",
+   "pounds": 31746
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2024-11-01",
+   "stream": "wte",
+   "pounds": 63074
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2024-11-01",
+   "stream": "landfill",
+   "pounds": 14182
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2024-12-01",
+   "stream": "recycling",
+   "pounds": 386967
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2024-12-01",
+   "stream": "reuse",
+   "pounds": 77366
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2024-12-01",
+   "stream": "composting",
+   "pounds": 34225
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2024-12-01",
+   "stream": "wte",
+   "pounds": 62520
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2024-12-01",
+   "stream": "landfill",
+   "pounds": 14657
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-01-01",
+   "stream": "recycling",
+   "pounds": 374460
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-01-01",
+   "stream": "reuse",
+   "pounds": 69555
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-01-01",
+   "stream": "composting",
+   "pounds": 30833
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-01-01",
+   "stream": "wte",
+   "pounds": 59001
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-01-01",
+   "stream": "landfill",
+   "pounds": 13507
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-02-01",
+   "stream": "recycling",
+   "pounds": 421258
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-02-01",
+   "stream": "reuse",
+   "pounds": 83224
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-02-01",
+   "stream": "composting",
+   "pounds": 36611
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-02-01",
+   "stream": "wte",
+   "pounds": 67130
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-02-01",
+   "stream": "landfill",
+   "pounds": 15487
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-03-01",
+   "stream": "recycling",
+   "pounds": 392375
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-03-01",
+   "stream": "reuse",
+   "pounds": 74094
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-03-01",
+   "stream": "composting",
+   "pounds": 32902
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-03-01",
+   "stream": "wte",
+   "pounds": 59670
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-03-01",
+   "stream": "landfill",
+   "pounds": 13994
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-04-01",
+   "stream": "recycling",
+   "pounds": 390004
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-04-01",
+   "stream": "reuse",
+   "pounds": 77373
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-04-01",
+   "stream": "composting",
+   "pounds": 33363
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-04-01",
+   "stream": "wte",
+   "pounds": 58854
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-04-01",
+   "stream": "landfill",
+   "pounds": 14385
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-05-01",
+   "stream": "recycling",
+   "pounds": 446045
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-05-01",
+   "stream": "reuse",
+   "pounds": 88358
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-05-01",
+   "stream": "composting",
+   "pounds": 38299
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-05-01",
+   "stream": "wte",
+   "pounds": 69870
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-05-01",
+   "stream": "landfill",
+   "pounds": 16615
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-06-01",
+   "stream": "recycling",
+   "pounds": 439553
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-06-01",
+   "stream": "reuse",
+   "pounds": 88786
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-06-01",
+   "stream": "composting",
+   "pounds": 38802
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-06-01",
+   "stream": "wte",
+   "pounds": 67004
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-06-01",
+   "stream": "landfill",
+   "pounds": 16467
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-07-01",
+   "stream": "recycling",
+   "pounds": 405863
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-07-01",
+   "stream": "reuse",
+   "pounds": 80703
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-07-01",
+   "stream": "composting",
+   "pounds": 35262
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-07-01",
+   "stream": "wte",
+   "pounds": 61820
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-07-01",
+   "stream": "landfill",
+   "pounds": 14972
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-08-01",
+   "stream": "recycling",
+   "pounds": 458301
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-08-01",
+   "stream": "reuse",
+   "pounds": 86114
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-08-01",
+   "stream": "composting",
+   "pounds": 38781
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-08-01",
+   "stream": "wte",
+   "pounds": 65141
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-08-01",
+   "stream": "landfill",
+   "pounds": 16379
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-09-01",
+   "stream": "recycling",
+   "pounds": 427623
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-09-01",
+   "stream": "reuse",
+   "pounds": 78568
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-09-01",
+   "stream": "composting",
+   "pounds": 34495
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-09-01",
+   "stream": "wte",
+   "pounds": 60518
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-09-01",
+   "stream": "landfill",
+   "pounds": 15422
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-10-01",
+   "stream": "recycling",
+   "pounds": 419759
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-10-01",
+   "stream": "reuse",
+   "pounds": 81157
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-10-01",
+   "stream": "composting",
+   "pounds": 35956
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-10-01",
+   "stream": "wte",
+   "pounds": 62173
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-10-01",
+   "stream": "landfill",
+   "pounds": 15569
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-11-01",
+   "stream": "recycling",
+   "pounds": 410433
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-11-01",
+   "stream": "reuse",
+   "pounds": 75264
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-11-01",
+   "stream": "composting",
+   "pounds": 33266
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-11-01",
+   "stream": "wte",
+   "pounds": 57650
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-11-01",
+   "stream": "landfill",
+   "pounds": 14548
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-12-01",
+   "stream": "recycling",
+   "pounds": 448736
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-12-01",
+   "stream": "reuse",
+   "pounds": 85528
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-12-01",
+   "stream": "composting",
+   "pounds": 36915
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-12-01",
+   "stream": "wte",
+   "pounds": 62229
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-12-01",
+   "stream": "landfill",
+   "pounds": 16317
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-01-01",
+   "stream": "recycling",
+   "pounds": 397142
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-01-01",
+   "stream": "reuse",
+   "pounds": 77332
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-01-01",
+   "stream": "composting",
+   "pounds": 34223
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-01-01",
+   "stream": "wte",
+   "pounds": 54042
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-01-01",
+   "stream": "landfill",
+   "pounds": 14610
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-02-01",
+   "stream": "recycling",
+   "pounds": 463064
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-02-01",
+   "stream": "reuse",
+   "pounds": 87711
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-02-01",
+   "stream": "composting",
+   "pounds": 37499
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-02-01",
+   "stream": "wte",
+   "pounds": 63335
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-02-01",
+   "stream": "landfill",
+   "pounds": 16812
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-03-01",
+   "stream": "recycling",
+   "pounds": 406153
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-03-01",
+   "stream": "reuse",
+   "pounds": 77325
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-03-01",
+   "stream": "composting",
+   "pounds": 33158
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-03-01",
+   "stream": "wte",
+   "pounds": 52397
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-03-01",
+   "stream": "landfill",
+   "pounds": 14525
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-04-01",
+   "stream": "recycling",
+   "pounds": 450193
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-04-01",
+   "stream": "reuse",
+   "pounds": 83957
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-04-01",
+   "stream": "composting",
+   "pounds": 37223
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-04-01",
+   "stream": "wte",
+   "pounds": 56627
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-04-01",
+   "stream": "landfill",
+   "pounds": 15746
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-05-01",
+   "stream": "recycling",
+   "pounds": 495726
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-05-01",
+   "stream": "reuse",
+   "pounds": 89837
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-05-01",
+   "stream": "composting",
+   "pounds": 39577
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-05-01",
+   "stream": "wte",
+   "pounds": 63071
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-05-01",
+   "stream": "landfill",
+   "pounds": 17463
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-06-01",
+   "stream": "recycling",
+   "pounds": 420119
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-06-01",
+   "stream": "reuse",
+   "pounds": 80335
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-06-01",
+   "stream": "composting",
+   "pounds": 34048
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-06-01",
+   "stream": "wte",
+   "pounds": 54852
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-06-01",
+   "stream": "landfill",
+   "pounds": 15098
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-07-01",
+   "stream": "recycling",
+   "pounds": 398439
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-07-01",
+   "stream": "reuse",
+   "pounds": 75210
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-07-01",
+   "stream": "composting",
+   "pounds": 32572
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-07-01",
+   "stream": "wte",
+   "pounds": 50349
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-07-01",
+   "stream": "landfill",
+   "pounds": 14125
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-08-01",
+   "stream": "recycling",
+   "pounds": 407480
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-08-01",
+   "stream": "reuse",
+   "pounds": 78910
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-08-01",
+   "stream": "composting",
+   "pounds": 34753
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-08-01",
+   "stream": "wte",
+   "pounds": 50528
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-08-01",
+   "stream": "landfill",
+   "pounds": 14839
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-09-01",
+   "stream": "recycling",
+   "pounds": 427199
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-09-01",
+   "stream": "reuse",
+   "pounds": 81490
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-09-01",
+   "stream": "composting",
+   "pounds": 34363
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-09-01",
+   "stream": "wte",
+   "pounds": 52706
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-09-01",
+   "stream": "landfill",
+   "pounds": 15174
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2024-10-01",
+   "stream": "recycling",
+   "pounds": 301258
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2024-10-01",
+   "stream": "reuse",
+   "pounds": 55651
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2024-10-01",
+   "stream": "composting",
+   "pounds": 24429
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2024-10-01",
+   "stream": "wte",
+   "pounds": 48599
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2024-10-01",
+   "stream": "landfill",
+   "pounds": 15291
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2024-11-01",
+   "stream": "recycling",
+   "pounds": 293236
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2024-11-01",
+   "stream": "reuse",
+   "pounds": 57606
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2024-11-01",
+   "stream": "composting",
+   "pounds": 25649
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2024-11-01",
+   "stream": "wte",
+   "pounds": 46729
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2024-11-01",
+   "stream": "landfill",
+   "pounds": 15422
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2024-12-01",
+   "stream": "recycling",
+   "pounds": 303299
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2024-12-01",
+   "stream": "reuse",
+   "pounds": 56116
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2024-12-01",
+   "stream": "composting",
+   "pounds": 24884
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2024-12-01",
+   "stream": "wte",
+   "pounds": 46218
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2024-12-01",
+   "stream": "landfill",
+   "pounds": 15355
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-01-01",
+   "stream": "recycling",
+   "pounds": 274382
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-01-01",
+   "stream": "reuse",
+   "pounds": 53903
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-01-01",
+   "stream": "composting",
+   "pounds": 23120
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-01-01",
+   "stream": "wte",
+   "pounds": 44598
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-01-01",
+   "stream": "landfill",
+   "pounds": 14655
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-02-01",
+   "stream": "recycling",
+   "pounds": 261921
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-02-01",
+   "stream": "reuse",
+   "pounds": 51165
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-02-01",
+   "stream": "composting",
+   "pounds": 22905
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-02-01",
+   "stream": "wte",
+   "pounds": 42451
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-02-01",
+   "stream": "landfill",
+   "pounds": 13926
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-03-01",
+   "stream": "recycling",
+   "pounds": 267071
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-03-01",
+   "stream": "reuse",
+   "pounds": 52853
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-03-01",
+   "stream": "composting",
+   "pounds": 22844
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-03-01",
+   "stream": "wte",
+   "pounds": 40880
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-03-01",
+   "stream": "landfill",
+   "pounds": 14062
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-04-01",
+   "stream": "recycling",
+   "pounds": 317262
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-04-01",
+   "stream": "reuse",
+   "pounds": 60937
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-04-01",
+   "stream": "composting",
+   "pounds": 26629
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-04-01",
+   "stream": "wte",
+   "pounds": 47493
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-04-01",
+   "stream": "landfill",
+   "pounds": 16064
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-05-01",
+   "stream": "recycling",
+   "pounds": 279573
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-05-01",
+   "stream": "reuse",
+   "pounds": 53804
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-05-01",
+   "stream": "composting",
+   "pounds": 23652
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-05-01",
+   "stream": "wte",
+   "pounds": 42788
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-05-01",
+   "stream": "landfill",
+   "pounds": 14719
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-06-01",
+   "stream": "recycling",
+   "pounds": 324669
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-06-01",
+   "stream": "reuse",
+   "pounds": 62914
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-06-01",
+   "stream": "composting",
+   "pounds": 26510
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-06-01",
+   "stream": "wte",
+   "pounds": 48179
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-06-01",
+   "stream": "landfill",
+   "pounds": 16773
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-07-01",
+   "stream": "recycling",
+   "pounds": 271018
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-07-01",
+   "stream": "reuse",
+   "pounds": 52287
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-07-01",
+   "stream": "composting",
+   "pounds": 23783
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-07-01",
+   "stream": "wte",
+   "pounds": 40789
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-07-01",
+   "stream": "landfill",
+   "pounds": 14324
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-08-01",
+   "stream": "recycling",
+   "pounds": 260593
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-08-01",
+   "stream": "reuse",
+   "pounds": 49873
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-08-01",
+   "stream": "composting",
+   "pounds": 21401
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-08-01",
+   "stream": "wte",
+   "pounds": 37855
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-08-01",
+   "stream": "landfill",
+   "pounds": 13503
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-09-01",
+   "stream": "recycling",
+   "pounds": 303014
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-09-01",
+   "stream": "reuse",
+   "pounds": 57984
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-09-01",
+   "stream": "composting",
+   "pounds": 25176
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-09-01",
+   "stream": "wte",
+   "pounds": 44953
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-09-01",
+   "stream": "landfill",
+   "pounds": 15712
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-10-01",
+   "stream": "recycling",
+   "pounds": 334737
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-10-01",
+   "stream": "reuse",
+   "pounds": 64028
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-10-01",
+   "stream": "composting",
+   "pounds": 28599
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-10-01",
+   "stream": "wte",
+   "pounds": 49364
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-10-01",
+   "stream": "landfill",
+   "pounds": 17623
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-11-01",
+   "stream": "recycling",
+   "pounds": 319244
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-11-01",
+   "stream": "reuse",
+   "pounds": 63947
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-11-01",
+   "stream": "composting",
+   "pounds": 28097
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-11-01",
+   "stream": "wte",
+   "pounds": 46917
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-11-01",
+   "stream": "landfill",
+   "pounds": 16836
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-12-01",
+   "stream": "recycling",
+   "pounds": 295188
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-12-01",
+   "stream": "reuse",
+   "pounds": 59021
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-12-01",
+   "stream": "composting",
+   "pounds": 24985
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-12-01",
+   "stream": "wte",
+   "pounds": 42501
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-12-01",
+   "stream": "landfill",
+   "pounds": 15467
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-01-01",
+   "stream": "recycling",
+   "pounds": 296089
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-01-01",
+   "stream": "reuse",
+   "pounds": 53807
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-01-01",
+   "stream": "composting",
+   "pounds": 24810
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-01-01",
+   "stream": "wte",
+   "pounds": 40033
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-01-01",
+   "stream": "landfill",
+   "pounds": 14928
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-02-01",
+   "stream": "recycling",
+   "pounds": 340568
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-02-01",
+   "stream": "reuse",
+   "pounds": 61047
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-02-01",
+   "stream": "composting",
+   "pounds": 28139
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-02-01",
+   "stream": "wte",
+   "pounds": 46068
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-02-01",
+   "stream": "landfill",
+   "pounds": 16978
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-03-01",
+   "stream": "recycling",
+   "pounds": 298149
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-03-01",
+   "stream": "reuse",
+   "pounds": 56917
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-03-01",
+   "stream": "composting",
+   "pounds": 24291
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-03-01",
+   "stream": "wte",
+   "pounds": 39083
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-03-01",
+   "stream": "landfill",
+   "pounds": 15232
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-04-01",
+   "stream": "recycling",
+   "pounds": 312055
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-04-01",
+   "stream": "reuse",
+   "pounds": 60204
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-04-01",
+   "stream": "composting",
+   "pounds": 26033
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-04-01",
+   "stream": "wte",
+   "pounds": 41533
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-04-01",
+   "stream": "landfill",
+   "pounds": 16026
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-05-01",
+   "stream": "recycling",
+   "pounds": 290037
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-05-01",
+   "stream": "reuse",
+   "pounds": 52958
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-05-01",
+   "stream": "composting",
+   "pounds": 22867
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-05-01",
+   "stream": "wte",
+   "pounds": 36147
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-05-01",
+   "stream": "landfill",
+   "pounds": 14454
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-06-01",
+   "stream": "recycling",
+   "pounds": 271164
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-06-01",
+   "stream": "reuse",
+   "pounds": 50344
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-06-01",
+   "stream": "composting",
+   "pounds": 22682
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-06-01",
+   "stream": "wte",
+   "pounds": 35524
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-06-01",
+   "stream": "landfill",
+   "pounds": 13677
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-07-01",
+   "stream": "recycling",
+   "pounds": 320548
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-07-01",
+   "stream": "reuse",
+   "pounds": 61465
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-07-01",
+   "stream": "composting",
+   "pounds": 27101
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-07-01",
+   "stream": "wte",
+   "pounds": 41185
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-07-01",
+   "stream": "landfill",
+   "pounds": 16222
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-08-01",
+   "stream": "recycling",
+   "pounds": 325211
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-08-01",
+   "stream": "reuse",
+   "pounds": 59268
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-08-01",
+   "stream": "composting",
+   "pounds": 26634
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-08-01",
+   "stream": "wte",
+   "pounds": 40168
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-08-01",
+   "stream": "landfill",
+   "pounds": 16284
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-09-01",
+   "stream": "recycling",
+   "pounds": 290240
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-09-01",
+   "stream": "reuse",
+   "pounds": 52805
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-09-01",
+   "stream": "composting",
+   "pounds": 22911
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-09-01",
+   "stream": "wte",
+   "pounds": 34983
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-09-01",
+   "stream": "landfill",
+   "pounds": 14470
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2024-10-01",
+   "stream": "recycling",
+   "pounds": 252935
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2024-10-01",
+   "stream": "reuse",
+   "pounds": 50516
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2024-10-01",
+   "stream": "composting",
+   "pounds": 21776
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2024-10-01",
+   "stream": "wte",
+   "pounds": 40877
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2024-10-01",
+   "stream": "landfill",
+   "pounds": 15424
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2024-11-01",
+   "stream": "recycling",
+   "pounds": 214230
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2024-11-01",
+   "stream": "reuse",
+   "pounds": 41473
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2024-11-01",
+   "stream": "composting",
+   "pounds": 18782
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2024-11-01",
+   "stream": "wte",
+   "pounds": 34923
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2024-11-01",
+   "stream": "landfill",
+   "pounds": 13061
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2024-12-01",
+   "stream": "recycling",
+   "pounds": 208586
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2024-12-01",
+   "stream": "reuse",
+   "pounds": 39938
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2024-12-01",
+   "stream": "composting",
+   "pounds": 17327
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2024-12-01",
+   "stream": "wte",
+   "pounds": 32766
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2024-12-01",
+   "stream": "landfill",
+   "pounds": 12372
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-01-01",
+   "stream": "recycling",
+   "pounds": 253350
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-01-01",
+   "stream": "reuse",
+   "pounds": 48505
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-01-01",
+   "stream": "composting",
+   "pounds": 22087
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-01-01",
+   "stream": "wte",
+   "pounds": 39401
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-01-01",
+   "stream": "landfill",
+   "pounds": 15488
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-02-01",
+   "stream": "recycling",
+   "pounds": 251580
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-02-01",
+   "stream": "reuse",
+   "pounds": 48609
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-02-01",
+   "stream": "composting",
+   "pounds": 21023
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-02-01",
+   "stream": "wte",
+   "pounds": 38613
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-02-01",
+   "stream": "landfill",
+   "pounds": 14630
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-03-01",
+   "stream": "recycling",
+   "pounds": 236430
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-03-01",
+   "stream": "reuse",
+   "pounds": 45120
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-03-01",
+   "stream": "composting",
+   "pounds": 19864
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-03-01",
+   "stream": "wte",
+   "pounds": 36177
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-03-01",
+   "stream": "landfill",
+   "pounds": 14191
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-04-01",
+   "stream": "recycling",
+   "pounds": 220919
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-04-01",
+   "stream": "reuse",
+   "pounds": 40705
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-04-01",
+   "stream": "composting",
+   "pounds": 18582
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-04-01",
+   "stream": "wte",
+   "pounds": 33463
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-04-01",
+   "stream": "landfill",
+   "pounds": 12990
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-05-01",
+   "stream": "recycling",
+   "pounds": 249253
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-05-01",
+   "stream": "reuse",
+   "pounds": 48513
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-05-01",
+   "stream": "composting",
+   "pounds": 20612
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-05-01",
+   "stream": "wte",
+   "pounds": 36936
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-05-01",
+   "stream": "landfill",
+   "pounds": 14710
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-06-01",
+   "stream": "recycling",
+   "pounds": 248704
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-06-01",
+   "stream": "reuse",
+   "pounds": 47976
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-06-01",
+   "stream": "composting",
+   "pounds": 20963
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-06-01",
+   "stream": "wte",
+   "pounds": 37990
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-06-01",
+   "stream": "landfill",
+   "pounds": 15125
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-07-01",
+   "stream": "recycling",
+   "pounds": 220778
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-07-01",
+   "stream": "reuse",
+   "pounds": 40640
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-07-01",
+   "stream": "composting",
+   "pounds": 17971
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-07-01",
+   "stream": "wte",
+   "pounds": 31582
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-07-01",
+   "stream": "landfill",
+   "pounds": 12790
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-08-01",
+   "stream": "recycling",
+   "pounds": 223258
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-08-01",
+   "stream": "reuse",
+   "pounds": 42588
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-08-01",
+   "stream": "composting",
+   "pounds": 18566
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-08-01",
+   "stream": "wte",
+   "pounds": 33590
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-08-01",
+   "stream": "landfill",
+   "pounds": 13447
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-09-01",
+   "stream": "recycling",
+   "pounds": 227914
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-09-01",
+   "stream": "reuse",
+   "pounds": 41571
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-09-01",
+   "stream": "composting",
+   "pounds": 18717
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-09-01",
+   "stream": "wte",
+   "pounds": 31921
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-09-01",
+   "stream": "landfill",
+   "pounds": 13094
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-10-01",
+   "stream": "recycling",
+   "pounds": 253197
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-10-01",
+   "stream": "reuse",
+   "pounds": 49151
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-10-01",
+   "stream": "composting",
+   "pounds": 20712
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-10-01",
+   "stream": "wte",
+   "pounds": 35366
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-10-01",
+   "stream": "landfill",
+   "pounds": 14877
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-11-01",
+   "stream": "recycling",
+   "pounds": 227676
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-11-01",
+   "stream": "reuse",
+   "pounds": 44402
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-11-01",
+   "stream": "composting",
+   "pounds": 19006
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-11-01",
+   "stream": "wte",
+   "pounds": 32887
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-11-01",
+   "stream": "landfill",
+   "pounds": 13547
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-12-01",
+   "stream": "recycling",
+   "pounds": 216810
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-12-01",
+   "stream": "reuse",
+   "pounds": 41587
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-12-01",
+   "stream": "composting",
+   "pounds": 18734
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-12-01",
+   "stream": "wte",
+   "pounds": 30406
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-12-01",
+   "stream": "landfill",
+   "pounds": 13033
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-01-01",
+   "stream": "recycling",
+   "pounds": 246700
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-01-01",
+   "stream": "reuse",
+   "pounds": 44386
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-01-01",
+   "stream": "composting",
+   "pounds": 20334
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-01-01",
+   "stream": "wte",
+   "pounds": 32233
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-01-01",
+   "stream": "landfill",
+   "pounds": 14080
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-02-01",
+   "stream": "recycling",
+   "pounds": 209922
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-02-01",
+   "stream": "reuse",
+   "pounds": 39557
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-02-01",
+   "stream": "composting",
+   "pounds": 17750
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-02-01",
+   "stream": "wte",
+   "pounds": 29583
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-02-01",
+   "stream": "landfill",
+   "pounds": 12637
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-03-01",
+   "stream": "recycling",
+   "pounds": 811289,
+   "notes": "Sample outlier: more than 3 times the 12 month average, to demo the warning."
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-03-01",
+   "stream": "reuse",
+   "pounds": 46727
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-03-01",
+   "stream": "composting",
+   "pounds": 20516
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-03-01",
+   "stream": "wte",
+   "pounds": 33865
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-03-01",
+   "stream": "landfill",
+   "pounds": 14630
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-04-01",
+   "stream": "recycling",
+   "pounds": 261932
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-04-01",
+   "stream": "reuse",
+   "pounds": 50277
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-04-01",
+   "stream": "composting",
+   "pounds": 22381
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-04-01",
+   "stream": "wte",
+   "pounds": 35418
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-04-01",
+   "stream": "landfill",
+   "pounds": 15386
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-05-01",
+   "stream": "recycling",
+   "pounds": 235755
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-05-01",
+   "stream": "reuse",
+   "pounds": 45452
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-05-01",
+   "stream": "composting",
+   "pounds": 19370
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-05-01",
+   "stream": "wte",
+   "pounds": 31280
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-05-01",
+   "stream": "landfill",
+   "pounds": 13961
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-06-01",
+   "stream": "recycling",
+   "pounds": 226939
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-06-01",
+   "stream": "reuse",
+   "pounds": 41297
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-06-01",
+   "stream": "composting",
+   "pounds": 17994
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-06-01",
+   "stream": "wte",
+   "pounds": 28152
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-06-01",
+   "stream": "landfill",
+   "pounds": 12969
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-07-01",
+   "stream": "recycling",
+   "pounds": 231578
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-07-01",
+   "stream": "reuse",
+   "pounds": 42282
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-07-01",
+   "stream": "composting",
+   "pounds": 18828
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-07-01",
+   "stream": "wte",
+   "pounds": 29377
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-07-01",
+   "stream": "landfill",
+   "pounds": 13303
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-08-01",
+   "stream": "recycling",
+   "pounds": 245031
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-08-01",
+   "stream": "reuse",
+   "pounds": 45506
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-08-01",
+   "stream": "composting",
+   "pounds": 19580
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-08-01",
+   "stream": "wte",
+   "pounds": 30524
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-08-01",
+   "stream": "landfill",
+   "pounds": 13862
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-09-01",
+   "stream": "recycling",
+   "pounds": 251346
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-09-01",
+   "stream": "reuse",
+   "pounds": 46326
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-09-01",
+   "stream": "composting",
+   "pounds": 20870
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-09-01",
+   "stream": "wte",
+   "pounds": 31008
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-09-01",
+   "stream": "landfill",
+   "pounds": 14443
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2024-10-01",
+   "stream": "recycling",
+   "pounds": 161930
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2024-10-01",
+   "stream": "reuse",
+   "pounds": 31680
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2024-10-01",
+   "stream": "composting",
+   "pounds": 13517
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2024-10-01",
+   "stream": "wte",
+   "pounds": 25861
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2024-10-01",
+   "stream": "landfill",
+   "pounds": 10855
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2024-11-01",
+   "stream": "recycling",
+   "pounds": 161371
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2024-11-01",
+   "stream": "reuse",
+   "pounds": 31459
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2024-11-01",
+   "stream": "composting",
+   "pounds": 14097
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2024-11-01",
+   "stream": "wte",
+   "pounds": 25404
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2024-11-01",
+   "stream": "landfill",
+   "pounds": 10967
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2024-12-01",
+   "stream": "recycling",
+   "pounds": 143872
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2024-12-01",
+   "stream": "reuse",
+   "pounds": 27044
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2024-12-01",
+   "stream": "composting",
+   "pounds": 11783
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2024-12-01",
+   "stream": "wte",
+   "pounds": 22833
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2024-12-01",
+   "stream": "landfill",
+   "pounds": 9693
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-01-01",
+   "stream": "recycling",
+   "pounds": 123839
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-01-01",
+   "stream": "reuse",
+   "pounds": 23255
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-01-01",
+   "stream": "composting",
+   "pounds": 10545
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-01-01",
+   "stream": "wte",
+   "pounds": 19495
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-01-01",
+   "stream": "landfill",
+   "pounds": 8276
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-02-01",
+   "stream": "recycling",
+   "pounds": 127664
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-02-01",
+   "stream": "reuse",
+   "pounds": 24573
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-02-01",
+   "stream": "composting",
+   "pounds": 10973
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-02-01",
+   "stream": "wte",
+   "pounds": 18996
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-02-01",
+   "stream": "landfill",
+   "pounds": 8532
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-03-01",
+   "stream": "recycling",
+   "pounds": 143067
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-03-01",
+   "stream": "reuse",
+   "pounds": 26682
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-03-01",
+   "stream": "composting",
+   "pounds": 11795
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-03-01",
+   "stream": "wte",
+   "pounds": 21908
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-03-01",
+   "stream": "landfill",
+   "pounds": 9411
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-04-01",
+   "stream": "recycling",
+   "pounds": 136430
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-04-01",
+   "stream": "reuse",
+   "pounds": 26103
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-04-01",
+   "stream": "composting",
+   "pounds": 11569
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-04-01",
+   "stream": "wte",
+   "pounds": 20879
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-04-01",
+   "stream": "landfill",
+   "pounds": 9424
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-05-01",
+   "stream": "recycling",
+   "pounds": 149516
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-05-01",
+   "stream": "reuse",
+   "pounds": 29507
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-05-01",
+   "stream": "composting",
+   "pounds": 13095
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-05-01",
+   "stream": "wte",
+   "pounds": 22648
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-05-01",
+   "stream": "landfill",
+   "pounds": 10238
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-06-01",
+   "stream": "recycling",
+   "pounds": 147979
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-06-01",
+   "stream": "reuse",
+   "pounds": 28607
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-06-01",
+   "stream": "composting",
+   "pounds": 12289
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-06-01",
+   "stream": "wte",
+   "pounds": 22774
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-06-01",
+   "stream": "landfill",
+   "pounds": 10118
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-07-01",
+   "stream": "recycling",
+   "pounds": 144133
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-07-01",
+   "stream": "reuse",
+   "pounds": 27443
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-07-01",
+   "stream": "composting",
+   "pounds": 11771
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-07-01",
+   "stream": "wte",
+   "pounds": 20836
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-07-01",
+   "stream": "landfill",
+   "pounds": 9535
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-08-01",
+   "stream": "recycling",
+   "pounds": 146166
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-08-01",
+   "stream": "reuse",
+   "pounds": 27969
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-08-01",
+   "stream": "composting",
+   "pounds": 12489
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-08-01",
+   "stream": "wte",
+   "pounds": 20885
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-08-01",
+   "stream": "landfill",
+   "pounds": 9773
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-09-01",
+   "stream": "recycling",
+   "pounds": 155855
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-09-01",
+   "stream": "reuse",
+   "pounds": 28764
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-09-01",
+   "stream": "composting",
+   "pounds": 12441
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-09-01",
+   "stream": "wte",
+   "pounds": 21472
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-09-01",
+   "stream": "landfill",
+   "pounds": 10244
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-10-01",
+   "stream": "recycling",
+   "pounds": 129492
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-10-01",
+   "stream": "reuse",
+   "pounds": 24817
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-10-01",
+   "stream": "composting",
+   "pounds": 10599
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-10-01",
+   "stream": "wte",
+   "pounds": 18280
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-10-01",
+   "stream": "landfill",
+   "pounds": 8700
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-11-01",
+   "stream": "recycling",
+   "pounds": 154578
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-11-01",
+   "stream": "reuse",
+   "pounds": 30150
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-11-01",
+   "stream": "composting",
+   "pounds": 12823
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-11-01",
+   "stream": "wte",
+   "pounds": 22252
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-11-01",
+   "stream": "landfill",
+   "pounds": 10470
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-12-01",
+   "stream": "recycling",
+   "pounds": 128023
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-12-01",
+   "stream": "reuse",
+   "pounds": 24892
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-12-01",
+   "stream": "composting",
+   "pounds": 11064
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-12-01",
+   "stream": "wte",
+   "pounds": 17971
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-12-01",
+   "stream": "landfill",
+   "pounds": 8625
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-01-01",
+   "stream": "recycling",
+   "pounds": 139668
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-01-01",
+   "stream": "reuse",
+   "pounds": 26060
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-01-01",
+   "stream": "composting",
+   "pounds": 11654
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-01-01",
+   "stream": "wte",
+   "pounds": 18347
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-01-01",
+   "stream": "landfill",
+   "pounds": 9053
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-02-01",
+   "stream": "recycling",
+   "pounds": 157108
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-02-01",
+   "stream": "reuse",
+   "pounds": 29950
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-02-01",
+   "stream": "composting",
+   "pounds": 13183
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-02-01",
+   "stream": "wte",
+   "pounds": 21283
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-02-01",
+   "stream": "landfill",
+   "pounds": 10430
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-03-01",
+   "stream": "recycling",
+   "pounds": 130015
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-03-01",
+   "stream": "reuse",
+   "pounds": 24715
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-03-01",
+   "stream": "composting",
+   "pounds": 11233
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-03-01",
+   "stream": "wte",
+   "pounds": 17427
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-03-01",
+   "stream": "landfill",
+   "pounds": 8750
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-04-01",
+   "stream": "recycling",
+   "pounds": 145343
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-04-01",
+   "stream": "reuse",
+   "pounds": 26738
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-04-01",
+   "stream": "composting",
+   "pounds": 12110
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-04-01",
+   "stream": "wte",
+   "pounds": 18421
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-04-01",
+   "stream": "landfill",
+   "pounds": 9401
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-05-01",
+   "stream": "recycling",
+   "pounds": 143922
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-05-01",
+   "stream": "reuse",
+   "pounds": 26024
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-05-01",
+   "stream": "composting",
+   "pounds": 11368
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-05-01",
+   "stream": "wte",
+   "pounds": 18009
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-05-01",
+   "stream": "landfill",
+   "pounds": 9248
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-06-01",
+   "stream": "recycling",
+   "pounds": 161186
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-06-01",
+   "stream": "reuse",
+   "pounds": 29872
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-06-01",
+   "stream": "composting",
+   "pounds": 12778
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-06-01",
+   "stream": "wte",
+   "pounds": 19580
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-06-01",
+   "stream": "landfill",
+   "pounds": 10376
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-07-01",
+   "stream": "recycling",
+   "pounds": 130262
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-07-01",
+   "stream": "reuse",
+   "pounds": 24360
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-07-01",
+   "stream": "composting",
+   "pounds": 10720
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-07-01",
+   "stream": "wte",
+   "pounds": 16890
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-07-01",
+   "stream": "landfill",
+   "pounds": 8718
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-08-01",
+   "stream": "recycling",
+   "pounds": 148451
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-08-01",
+   "stream": "reuse",
+   "pounds": 28108
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-08-01",
+   "stream": "composting",
+   "pounds": 12309
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-08-01",
+   "stream": "wte",
+   "pounds": 18113
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-08-01",
+   "stream": "landfill",
+   "pounds": 9680
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-09-01",
+   "stream": "recycling",
+   "pounds": 145505
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-09-01",
+   "stream": "reuse",
+   "pounds": 27109
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-09-01",
+   "stream": "composting",
+   "pounds": 12139
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-09-01",
+   "stream": "wte",
+   "pounds": 17690
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-09-01",
+   "stream": "landfill",
+   "pounds": 9686
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2024-10-01",
+   "stream": "recycling",
+   "pounds": 111319
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2024-10-01",
+   "stream": "reuse",
+   "pounds": 21046
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2024-10-01",
+   "stream": "composting",
+   "pounds": 9225
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2024-10-01",
+   "stream": "wte",
+   "pounds": 17287
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2024-10-01",
+   "stream": "landfill",
+   "pounds": 4855
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2024-11-01",
+   "stream": "recycling",
+   "pounds": 102776
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2024-11-01",
+   "stream": "reuse",
+   "pounds": 19482
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2024-11-01",
+   "stream": "composting",
+   "pounds": 8845
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2024-11-01",
+   "stream": "wte",
+   "pounds": 16658
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2024-11-01",
+   "stream": "landfill",
+   "pounds": 4590
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2024-12-01",
+   "stream": "recycling",
+   "pounds": 87074
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2024-12-01",
+   "stream": "reuse",
+   "pounds": 16494
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2024-12-01",
+   "stream": "composting",
+   "pounds": 7180
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2024-12-01",
+   "stream": "wte",
+   "pounds": 14158
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2024-12-01",
+   "stream": "landfill",
+   "pounds": 3870
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-01-01",
+   "stream": "recycling",
+   "pounds": 104298
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-01-01",
+   "stream": "reuse",
+   "pounds": 19194
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-01-01",
+   "stream": "composting",
+   "pounds": 8758
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-01-01",
+   "stream": "wte",
+   "pounds": 15616
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-01-01",
+   "stream": "landfill",
+   "pounds": 4516
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-02-01",
+   "stream": "recycling",
+   "pounds": 88131
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-02-01",
+   "stream": "reuse",
+   "pounds": 17134
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-02-01",
+   "stream": "composting",
+   "pounds": 7533
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-02-01",
+   "stream": "wte",
+   "pounds": 13588
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-02-01",
+   "stream": "landfill",
+   "pounds": 3930
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-03-01",
+   "stream": "recycling",
+   "pounds": 92006
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-03-01",
+   "stream": "reuse",
+   "pounds": 17553
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-03-01",
+   "stream": "composting",
+   "pounds": 7852
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-03-01",
+   "stream": "wte",
+   "pounds": 14130
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-03-01",
+   "stream": "landfill",
+   "pounds": 4015
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-04-01",
+   "stream": "recycling",
+   "pounds": 91117
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-04-01",
+   "stream": "reuse",
+   "pounds": 17959
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-04-01",
+   "stream": "composting",
+   "pounds": 7865
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-04-01",
+   "stream": "wte",
+   "pounds": 14271
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-04-01",
+   "stream": "landfill",
+   "pounds": 4091
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-05-01",
+   "stream": "recycling",
+   "pounds": 101781
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-05-01",
+   "stream": "reuse",
+   "pounds": 19332
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-05-01",
+   "stream": "composting",
+   "pounds": 8699
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-05-01",
+   "stream": "wte",
+   "pounds": 15048
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-05-01",
+   "stream": "landfill",
+   "pounds": 4457
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-06-01",
+   "stream": "recycling",
+   "pounds": 82671
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-06-01",
+   "stream": "reuse",
+   "pounds": 16399
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-06-01",
+   "stream": "composting",
+   "pounds": 7010
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-06-01",
+   "stream": "wte",
+   "pounds": 12855
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-06-01",
+   "stream": "landfill",
+   "pounds": 3721
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-07-01",
+   "stream": "recycling",
+   "pounds": 97391
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-07-01",
+   "stream": "reuse",
+   "pounds": 19241
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-07-01",
+   "stream": "composting",
+   "pounds": 8313
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-07-01",
+   "stream": "wte",
+   "pounds": 14562
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-07-01",
+   "stream": "landfill",
+   "pounds": 4344
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-08-01",
+   "stream": "recycling",
+   "pounds": 95678
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-08-01",
+   "stream": "reuse",
+   "pounds": 18607
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-08-01",
+   "stream": "composting",
+   "pounds": 8301
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-08-01",
+   "stream": "wte",
+   "pounds": 14043
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-08-01",
+   "stream": "landfill",
+   "pounds": 4238
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-09-01",
+   "stream": "recycling",
+   "pounds": 102766
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-09-01",
+   "stream": "reuse",
+   "pounds": 20601
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-09-01",
+   "stream": "composting",
+   "pounds": 8676
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-09-01",
+   "stream": "wte",
+   "pounds": 15263
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-09-01",
+   "stream": "landfill",
+   "pounds": 4606
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-10-01",
+   "stream": "recycling",
+   "pounds": 91682
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-10-01",
+   "stream": "reuse",
+   "pounds": 17302
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-10-01",
+   "stream": "composting",
+   "pounds": 7650
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-10-01",
+   "stream": "wte",
+   "pounds": 12674
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-10-01",
+   "stream": "landfill",
+   "pounds": 4034
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-11-01",
+   "stream": "recycling",
+   "pounds": 103977
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-11-01",
+   "stream": "reuse",
+   "pounds": 19500
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-11-01",
+   "stream": "composting",
+   "pounds": 8459
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-11-01",
+   "stream": "wte",
+   "pounds": 14104
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-11-01",
+   "stream": "landfill",
+   "pounds": 4417
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-12-01",
+   "stream": "recycling",
+   "pounds": 91183
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-12-01",
+   "stream": "reuse",
+   "pounds": 17669
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-12-01",
+   "stream": "composting",
+   "pounds": 7829
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-12-01",
+   "stream": "wte",
+   "pounds": 12405
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-12-01",
+   "stream": "landfill",
+   "pounds": 4008
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-01-01",
+   "stream": "recycling",
+   "pounds": 101085
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-01-01",
+   "stream": "reuse",
+   "pounds": 18337
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-01-01",
+   "stream": "composting",
+   "pounds": 8239
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-01-01",
+   "stream": "wte",
+   "pounds": 13629
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-01-01",
+   "stream": "landfill",
+   "pounds": 4334
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-03-01",
+   "stream": "recycling",
+   "pounds": 111344
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-03-01",
+   "stream": "reuse",
+   "pounds": 21890
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-03-01",
+   "stream": "composting",
+   "pounds": 9457
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-03-01",
+   "stream": "wte",
+   "pounds": 14754
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-03-01",
+   "stream": "landfill",
+   "pounds": 4904
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-04-01",
+   "stream": "recycling",
+   "pounds": 107226
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-04-01",
+   "stream": "reuse",
+   "pounds": 19365
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-04-01",
+   "stream": "composting",
+   "pounds": 8708
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-04-01",
+   "stream": "wte",
+   "pounds": 13860
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-04-01",
+   "stream": "landfill",
+   "pounds": 4545
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-05-01",
+   "stream": "recycling",
+   "pounds": 111742
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-05-01",
+   "stream": "reuse",
+   "pounds": 21490
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-05-01",
+   "stream": "composting",
+   "pounds": 9019
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-05-01",
+   "stream": "wte",
+   "pounds": 14297
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-05-01",
+   "stream": "landfill",
+   "pounds": 4827
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-07-01",
+   "stream": "recycling",
+   "pounds": 86395
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-07-01",
+   "stream": "reuse",
+   "pounds": 16552
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-07-01",
+   "stream": "composting",
+   "pounds": 6944
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-07-01",
+   "stream": "wte",
+   "pounds": 11136
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-07-01",
+   "stream": "landfill",
+   "pounds": 3710
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-09-01",
+   "stream": "recycling",
+   "pounds": 111104
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-09-01",
+   "stream": "reuse",
+   "pounds": 20755
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-09-01",
+   "stream": "composting",
+   "pounds": 8973
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-09-01",
+   "stream": "wte",
+   "pounds": 13981
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-09-01",
+   "stream": "landfill",
+   "pounds": 4773
+  }
+ ],
+ "utilities": [
+  {
+   "site_id": "plant-a",
+   "month": "2024-10-01",
+   "type": "electricity",
+   "value": 2700407
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2024-10-01",
+   "type": "gas",
+   "value": 44882
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2024-10-01",
+   "type": "water",
+   "value": 4263692
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2024-11-01",
+   "type": "electricity",
+   "value": 2469546
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2024-11-01",
+   "type": "gas",
+   "value": 57399
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2024-11-01",
+   "type": "water",
+   "value": 4426081
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2024-12-01",
+   "type": "electricity",
+   "value": 2379633
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2024-12-01",
+   "type": "gas",
+   "value": 66131
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2024-12-01",
+   "type": "water",
+   "value": 4451381
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-01-01",
+   "type": "electricity",
+   "value": 2342093
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-01-01",
+   "type": "gas",
+   "value": 77589
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-01-01",
+   "type": "water",
+   "value": 4472223
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-02-01",
+   "type": "electricity",
+   "value": 2318210
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-02-01",
+   "type": "gas",
+   "value": 76416
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-02-01",
+   "type": "water",
+   "value": 4513789
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-03-01",
+   "type": "electricity",
+   "value": 2422616
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-03-01",
+   "type": "gas",
+   "value": 66034
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-03-01",
+   "type": "water",
+   "value": 4175980
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-04-01",
+   "type": "electricity",
+   "value": 2489063
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-04-01",
+   "type": "gas",
+   "value": 60437
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-04-01",
+   "type": "water",
+   "value": 4477330
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-05-01",
+   "type": "electricity",
+   "value": 2820584
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-05-01",
+   "type": "gas",
+   "value": 46898
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-05-01",
+   "type": "water",
+   "value": 4415633
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-06-01",
+   "type": "electricity",
+   "value": 2905825
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-06-01",
+   "type": "gas",
+   "value": 34379
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-06-01",
+   "type": "water",
+   "value": 4329491
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-07-01",
+   "type": "electricity",
+   "value": 3204257
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-07-01",
+   "type": "gas",
+   "value": 31091
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-07-01",
+   "type": "water",
+   "value": 4268639
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-08-01",
+   "type": "electricity",
+   "value": 3034619
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-08-01",
+   "type": "gas",
+   "value": 29634
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-08-01",
+   "type": "water",
+   "value": 4373679
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-09-01",
+   "type": "electricity",
+   "value": 2977460
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-09-01",
+   "type": "gas",
+   "value": 33655
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-09-01",
+   "type": "water",
+   "value": 4492235
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-10-01",
+   "type": "electricity",
+   "value": 2731616
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-10-01",
+   "type": "gas",
+   "value": 47436
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-10-01",
+   "type": "water",
+   "value": 4439923
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-11-01",
+   "type": "electricity",
+   "value": 2646608
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-11-01",
+   "type": "gas",
+   "value": 55276
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-11-01",
+   "type": "water",
+   "value": 4476779
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-12-01",
+   "type": "electricity",
+   "value": 2515347
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-12-01",
+   "type": "gas",
+   "value": 68620
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2025-12-01",
+   "type": "water",
+   "value": 4553189
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-01-01",
+   "type": "electricity",
+   "value": 2449118
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-01-01",
+   "type": "gas",
+   "value": 75857
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-01-01",
+   "type": "water",
+   "value": 4332708
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-02-01",
+   "type": "electricity",
+   "value": 2294761
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-02-01",
+   "type": "gas",
+   "value": 75994
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-02-01",
+   "type": "water",
+   "value": 4191231
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-03-01",
+   "type": "electricity",
+   "value": 2470878
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-03-01",
+   "type": "gas",
+   "value": 67454
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-03-01",
+   "type": "water",
+   "value": 4546007
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-04-01",
+   "type": "electricity",
+   "value": 2577587
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-04-01",
+   "type": "gas",
+   "value": 60025
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-04-01",
+   "type": "water",
+   "value": 4354931
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-05-01",
+   "type": "electricity",
+   "value": 2779793
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-05-01",
+   "type": "gas",
+   "value": 48627
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-05-01",
+   "type": "water",
+   "value": 4561127
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-06-01",
+   "type": "electricity",
+   "value": 3083476
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-06-01",
+   "type": "gas",
+   "value": 35928
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-06-01",
+   "type": "water",
+   "value": 4440241
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-07-01",
+   "type": "electricity",
+   "value": 3232472
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-07-01",
+   "type": "gas",
+   "value": 29951
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-07-01",
+   "type": "water",
+   "value": 4556516
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-08-01",
+   "type": "electricity",
+   "value": 3082874
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-08-01",
+   "type": "gas",
+   "value": 30073
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-08-01",
+   "type": "water",
+   "value": 4466379
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-09-01",
+   "type": "electricity",
+   "value": 2900512
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-09-01",
+   "type": "gas",
+   "value": 36898
+  },
+  {
+   "site_id": "plant-a",
+   "month": "2026-09-01",
+   "type": "water",
+   "value": 4459526
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2024-10-01",
+   "type": "electricity",
+   "value": 1969383
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2024-10-01",
+   "type": "gas",
+   "value": 33230
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2024-10-01",
+   "type": "water",
+   "value": 3004038
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2024-11-01",
+   "type": "electricity",
+   "value": 1775377
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2024-11-01",
+   "type": "gas",
+   "value": 44263
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2024-11-01",
+   "type": "water",
+   "value": 3048606
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2024-12-01",
+   "type": "electricity",
+   "value": 1792237
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2024-12-01",
+   "type": "gas",
+   "value": 47576
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2024-12-01",
+   "type": "water",
+   "value": 3182708
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-01-01",
+   "type": "electricity",
+   "value": 1652476
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-01-01",
+   "type": "gas",
+   "value": 52431
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-01-01",
+   "type": "water",
+   "value": 3042394
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-02-01",
+   "type": "electricity",
+   "value": 1678909
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-02-01",
+   "type": "gas",
+   "value": 52509
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-02-01",
+   "type": "water",
+   "value": 3056414
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-03-01",
+   "type": "electricity",
+   "value": 1788107
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-03-01",
+   "type": "gas",
+   "value": 49605
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-03-01",
+   "type": "water",
+   "value": 2994347
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-04-01",
+   "type": "electricity",
+   "value": 1787642
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-04-01",
+   "type": "gas",
+   "value": 42921
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-04-01",
+   "type": "water",
+   "value": 3069377
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-05-01",
+   "type": "electricity",
+   "value": 1998608
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-05-01",
+   "type": "gas",
+   "value": 31317
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-05-01",
+   "type": "water",
+   "value": 3228447
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-06-01",
+   "type": "electricity",
+   "value": 2075813
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-06-01",
+   "type": "gas",
+   "value": 26668
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-06-01",
+   "type": "water",
+   "value": 2977207
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-07-01",
+   "type": "electricity",
+   "value": 2185698
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-07-01",
+   "type": "gas",
+   "value": 20542
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-07-01",
+   "type": "water",
+   "value": 3184922
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-08-01",
+   "type": "electricity",
+   "value": 2305671
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-08-01",
+   "type": "gas",
+   "value": 20426
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-08-01",
+   "type": "water",
+   "value": 3050852
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-09-01",
+   "type": "electricity",
+   "value": 2124720
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-09-01",
+   "type": "gas",
+   "value": 25159
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-09-01",
+   "type": "water",
+   "value": 3049359
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-10-01",
+   "type": "electricity",
+   "value": 2001863
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-10-01",
+   "type": "gas",
+   "value": 31694
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-10-01",
+   "type": "water",
+   "value": 3161031
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-11-01",
+   "type": "electricity",
+   "value": 1772826
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-11-01",
+   "type": "gas",
+   "value": 43657
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-11-01",
+   "type": "water",
+   "value": 3024786
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-12-01",
+   "type": "electricity",
+   "value": 1731178
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-12-01",
+   "type": "gas",
+   "value": 48050
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2025-12-01",
+   "type": "water",
+   "value": 3185230
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-01-01",
+   "type": "electricity",
+   "value": 1699909
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-01-01",
+   "type": "gas",
+   "value": 56758
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-01-01",
+   "type": "water",
+   "value": 3190345
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-02-01",
+   "type": "electricity",
+   "value": 1730233
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-02-01",
+   "type": "gas",
+   "value": 56092
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-02-01",
+   "type": "water",
+   "value": 3074016
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-03-01",
+   "type": "electricity",
+   "value": 1678524
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-03-01",
+   "type": "gas",
+   "value": 49261
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-03-01",
+   "type": "water",
+   "value": 3118949
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-04-01",
+   "type": "electricity",
+   "value": 1856473
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-04-01",
+   "type": "gas",
+   "value": 42539
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-04-01",
+   "type": "water",
+   "value": 3160435
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-05-01",
+   "type": "electricity",
+   "value": 1935167
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-05-01",
+   "type": "gas",
+   "value": 33433
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-05-01",
+   "type": "water",
+   "value": 3208805
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-06-01",
+   "type": "electricity",
+   "value": 2125569
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-06-01",
+   "type": "gas",
+   "value": 25501
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-06-01",
+   "type": "water",
+   "value": 3179018
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-07-01",
+   "type": "electricity",
+   "value": 2188719
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-07-01",
+   "type": "gas",
+   "value": 20779
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-07-01",
+   "type": "water",
+   "value": 3057730
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-08-01",
+   "type": "electricity",
+   "value": 2203715
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-08-01",
+   "type": "gas",
+   "value": 22040
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-08-01",
+   "type": "water",
+   "value": 2983326
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-09-01",
+   "type": "electricity",
+   "value": 2069581
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-09-01",
+   "type": "gas",
+   "value": 24101
+  },
+  {
+   "site_id": "plant-b",
+   "month": "2026-09-01",
+   "type": "water",
+   "value": 3111186
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2024-10-01",
+   "type": "electricity",
+   "value": 1541656
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2024-10-01",
+   "type": "gas",
+   "value": 25222
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2024-10-01",
+   "type": "water",
+   "value": 2564476
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2024-11-01",
+   "type": "electricity",
+   "value": 1470151
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2024-11-01",
+   "type": "gas",
+   "value": 35252
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2024-11-01",
+   "type": "water",
+   "value": 2477293
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2024-12-01",
+   "type": "electricity",
+   "value": 1414220
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2024-12-01",
+   "type": "gas",
+   "value": 40379
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2024-12-01",
+   "type": "water",
+   "value": 2403213
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-01-01",
+   "type": "electricity",
+   "value": 1407442
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-01-01",
+   "type": "gas",
+   "value": 42263
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-01-01",
+   "type": "water",
+   "value": 2377612
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-02-01",
+   "type": "electricity",
+   "value": 1359238
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-02-01",
+   "type": "gas",
+   "value": 41753
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-02-01",
+   "type": "water",
+   "value": 2528627
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-03-01",
+   "type": "electricity",
+   "value": 1412922
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-03-01",
+   "type": "gas",
+   "value": 39394
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-03-01",
+   "type": "water",
+   "value": 2592063
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-04-01",
+   "type": "electricity",
+   "value": 1409455
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-04-01",
+   "type": "gas",
+   "value": 32997
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-04-01",
+   "type": "water",
+   "value": 2433333
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-05-01",
+   "type": "electricity",
+   "value": 1548200
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-05-01",
+   "type": "gas",
+   "value": 27255
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-05-01",
+   "type": "water",
+   "value": 2612706
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-06-01",
+   "type": "electricity",
+   "value": 1648800
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-06-01",
+   "type": "gas",
+   "value": 19889
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-06-01",
+   "type": "water",
+   "value": 2602478
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-07-01",
+   "type": "electricity",
+   "value": 1722407
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-07-01",
+   "type": "gas",
+   "value": 16655
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-07-01",
+   "type": "water",
+   "value": 2559736
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-08-01",
+   "type": "electricity",
+   "value": 1720275
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-08-01",
+   "type": "gas",
+   "value": 16263
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-08-01",
+   "type": "water",
+   "value": 2410485
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-09-01",
+   "type": "electricity",
+   "value": 1649424
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-09-01",
+   "type": "gas",
+   "value": 19437
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-09-01",
+   "type": "water",
+   "value": 2565393
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-10-01",
+   "type": "electricity",
+   "value": 1533163
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-10-01",
+   "type": "gas",
+   "value": 24927
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-10-01",
+   "type": "water",
+   "value": 2515259
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-11-01",
+   "type": "electricity",
+   "value": 1517836
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-11-01",
+   "type": "gas",
+   "value": 33587
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-11-01",
+   "type": "water",
+   "value": 2535068
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-12-01",
+   "type": "electricity",
+   "value": 1362427
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-12-01",
+   "type": "gas",
+   "value": 41329
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2025-12-01",
+   "type": "water",
+   "value": 2532630
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-01-01",
+   "type": "electricity",
+   "value": 1350651
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-01-01",
+   "type": "gas",
+   "value": 41909
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-01-01",
+   "type": "water",
+   "value": 2394851
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-02-01",
+   "type": "electricity",
+   "value": 1375126
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-02-01",
+   "type": "gas",
+   "value": 43664
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-02-01",
+   "type": "water",
+   "value": 2442078
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-03-01",
+   "type": "electricity",
+   "value": 1406808
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-03-01",
+   "type": "gas",
+   "value": 40158
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-03-01",
+   "type": "water",
+   "value": 2446603
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-04-01",
+   "type": "electricity",
+   "value": 1410570
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-04-01",
+   "type": "gas",
+   "value": 33043
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-04-01",
+   "type": "water",
+   "value": 2579072
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-05-01",
+   "type": "electricity",
+   "value": 1587757
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-05-01",
+   "type": "gas",
+   "value": 25587
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-05-01",
+   "type": "water",
+   "value": 2541546
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-06-01",
+   "type": "electricity",
+   "value": 1671747
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-06-01",
+   "type": "gas",
+   "value": 20223
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-06-01",
+   "type": "water",
+   "value": 2481511
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-07-01",
+   "type": "electricity",
+   "value": 1768223
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-07-01",
+   "type": "gas",
+   "value": 16945
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-07-01",
+   "type": "water",
+   "value": 2460867
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-08-01",
+   "type": "electricity",
+   "value": 1806178
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-08-01",
+   "type": "gas",
+   "value": 16465
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-08-01",
+   "type": "water",
+   "value": 2488387
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-09-01",
+   "type": "electricity",
+   "value": 1762309
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-09-01",
+   "type": "gas",
+   "value": 20957
+  },
+  {
+   "site_id": "plant-c",
+   "month": "2026-09-01",
+   "type": "water",
+   "value": 2478580
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2024-10-01",
+   "type": "electricity",
+   "value": 950736
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2024-10-01",
+   "type": "gas",
+   "value": 14989
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2024-10-01",
+   "type": "water",
+   "value": 1458088
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2024-11-01",
+   "type": "electricity",
+   "value": 907520
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2024-11-01",
+   "type": "gas",
+   "value": 19115
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2024-11-01",
+   "type": "water",
+   "value": 1556771
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2024-12-01",
+   "type": "electricity",
+   "value": 859753
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2024-12-01",
+   "type": "gas",
+   "value": 23412
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2024-12-01",
+   "type": "water",
+   "value": 1574981
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-01-01",
+   "type": "electricity",
+   "value": 829232
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-01-01",
+   "type": "gas",
+   "value": 25058
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-01-01",
+   "type": "water",
+   "value": 1451825
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-02-01",
+   "type": "electricity",
+   "value": 781889
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-02-01",
+   "type": "gas",
+   "value": 24372
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-02-01",
+   "type": "water",
+   "value": 1472278
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-03-01",
+   "type": "electricity",
+   "value": 850388
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-03-01",
+   "type": "gas",
+   "value": 23071
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-03-01",
+   "type": "water",
+   "value": 1477965
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-04-01",
+   "type": "electricity",
+   "value": 887046
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-04-01",
+   "type": "gas",
+   "value": 19749
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-04-01",
+   "type": "water",
+   "value": 1455874
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-05-01",
+   "type": "electricity",
+   "value": 935562
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-05-01",
+   "type": "gas",
+   "value": 16303
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-05-01",
+   "type": "water",
+   "value": 1538536
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-06-01",
+   "type": "electricity",
+   "value": 1022631
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-06-01",
+   "type": "gas",
+   "value": 12532
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-06-01",
+   "type": "water",
+   "value": 1537532
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-07-01",
+   "type": "electricity",
+   "value": 1087168
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-07-01",
+   "type": "gas",
+   "value": 10139
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-07-01",
+   "type": "water",
+   "value": 1470694
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-08-01",
+   "type": "electricity",
+   "value": 1051748
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-08-01",
+   "type": "gas",
+   "value": 10068
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-08-01",
+   "type": "water",
+   "value": 1547590
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-09-01",
+   "type": "electricity",
+   "value": 1060365
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-09-01",
+   "type": "gas",
+   "value": 12194
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-09-01",
+   "type": "water",
+   "value": 1554246
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-10-01",
+   "type": "electricity",
+   "value": 931861
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-10-01",
+   "type": "gas",
+   "value": 15390
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-10-01",
+   "type": "water",
+   "value": 1466137
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-11-01",
+   "type": "electricity",
+   "value": 876141
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-11-01",
+   "type": "gas",
+   "value": 19701
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-11-01",
+   "type": "water",
+   "value": 1475927
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-12-01",
+   "type": "electricity",
+   "value": 853780
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-12-01",
+   "type": "gas",
+   "value": 24392
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2025-12-01",
+   "type": "water",
+   "value": 1440520
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-01-01",
+   "type": "electricity",
+   "value": 804142
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-01-01",
+   "type": "gas",
+   "value": 25624
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-01-01",
+   "type": "water",
+   "value": 1443239
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-02-01",
+   "type": "electricity",
+   "value": 785365
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-02-01",
+   "type": "gas",
+   "value": 24711
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-02-01",
+   "type": "water",
+   "value": 1541790
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-03-01",
+   "type": "electricity",
+   "value": 844169
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-03-01",
+   "type": "gas",
+   "value": 22651
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-03-01",
+   "type": "water",
+   "value": 1464975
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-04-01",
+   "type": "electricity",
+   "value": 892168
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-04-01",
+   "type": "gas",
+   "value": 19750
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-04-01",
+   "type": "water",
+   "value": 1457493
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-05-01",
+   "type": "electricity",
+   "value": 931309
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-05-01",
+   "type": "gas",
+   "value": 15494
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-05-01",
+   "type": "water",
+   "value": 1536816
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-06-01",
+   "type": "electricity",
+   "value": 1046817
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-06-01",
+   "type": "gas",
+   "value": 12931
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-06-01",
+   "type": "water",
+   "value": 1498689
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-07-01",
+   "type": "electricity",
+   "value": 1084937
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-07-01",
+   "type": "gas",
+   "value": 10737
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-07-01",
+   "type": "water",
+   "value": 1565611
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-08-01",
+   "type": "electricity",
+   "value": 1052825
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-08-01",
+   "type": "gas",
+   "value": 10354
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-08-01",
+   "type": "water",
+   "value": 1450075
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-09-01",
+   "type": "electricity",
+   "value": 1036253
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-09-01",
+   "type": "gas",
+   "value": 11766
+  },
+  {
+   "site_id": "plant-d",
+   "month": "2026-09-01",
+   "type": "water",
+   "value": 1552501
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2024-10-01",
+   "type": "electricity",
+   "value": 647872
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2024-10-01",
+   "type": "gas",
+   "value": 10186
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2024-10-01",
+   "type": "water",
+   "value": 1001782
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2024-11-01",
+   "type": "electricity",
+   "value": 600404
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2024-11-01",
+   "type": "gas",
+   "value": 12937
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2024-11-01",
+   "type": "water",
+   "value": 1040264
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2024-12-01",
+   "type": "electricity",
+   "value": 566583
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2024-12-01",
+   "type": "gas",
+   "value": 14992
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2024-12-01",
+   "type": "water",
+   "value": 1034864
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-01-01",
+   "type": "electricity",
+   "value": 557222
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-01-01",
+   "type": "gas",
+   "value": 17017
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-01-01",
+   "type": "water",
+   "value": 979962
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-02-01",
+   "type": "electricity",
+   "value": 543461
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-02-01",
+   "type": "gas",
+   "value": 16211
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-02-01",
+   "type": "water",
+   "value": 984608
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-03-01",
+   "type": "electricity",
+   "value": 550424
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-03-01",
+   "type": "gas",
+   "value": 15695
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-03-01",
+   "type": "water",
+   "value": 959130
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-04-01",
+   "type": "electricity",
+   "value": 582875
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-04-01",
+   "type": "gas",
+   "value": 14061
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-04-01",
+   "type": "water",
+   "value": 969670
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-05-01",
+   "type": "electricity",
+   "value": 614324
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-05-01",
+   "type": "gas",
+   "value": 10198
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-05-01",
+   "type": "water",
+   "value": 999247
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-06-01",
+   "type": "electricity",
+   "value": 710802
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-06-01",
+   "type": "gas",
+   "value": 7983
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-06-01",
+   "type": "water",
+   "value": 1004055
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-07-01",
+   "type": "electricity",
+   "value": 693992
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-07-01",
+   "type": "gas",
+   "value": 7068
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-07-01",
+   "type": "water",
+   "value": 1020898
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-08-01",
+   "type": "electricity",
+   "value": 706130
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-08-01",
+   "type": "gas",
+   "value": 6972
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-08-01",
+   "type": "water",
+   "value": 999796
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-09-01",
+   "type": "electricity",
+   "value": 666460
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-09-01",
+   "type": "gas",
+   "value": 8556
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-09-01",
+   "type": "water",
+   "value": 1034263
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-10-01",
+   "type": "electricity",
+   "value": 630498
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-10-01",
+   "type": "gas",
+   "value": 10114
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-10-01",
+   "type": "water",
+   "value": 1023324
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-11-01",
+   "type": "electricity",
+   "value": 568735
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-11-01",
+   "type": "gas",
+   "value": 12796
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-11-01",
+   "type": "water",
+   "value": 953080
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-12-01",
+   "type": "electricity",
+   "value": 561876
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-12-01",
+   "type": "gas",
+   "value": 16111
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2025-12-01",
+   "type": "water",
+   "value": 977414
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-01-01",
+   "type": "electricity",
+   "value": 520790
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-01-01",
+   "type": "gas",
+   "value": 17944
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-01-01",
+   "type": "water",
+   "value": 950608
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-02-01",
+   "type": "electricity",
+   "value": 552358
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-02-01",
+   "type": "gas",
+   "value": 16313
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-02-01",
+   "type": "water",
+   "value": 1027112
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-03-01",
+   "type": "electricity",
+   "value": 535783
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-03-01",
+   "type": "gas",
+   "value": 16250
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-03-01",
+   "type": "water",
+   "value": 979665
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-04-01",
+   "type": "electricity",
+   "value": 575104
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-04-01",
+   "type": "gas",
+   "value": 13028
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-04-01",
+   "type": "water",
+   "value": 996824
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-05-01",
+   "type": "electricity",
+   "value": 624659
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-05-01",
+   "type": "gas",
+   "value": 11235
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-05-01",
+   "type": "water",
+   "value": 1044795
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-06-01",
+   "type": "electricity",
+   "value": 690503
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-06-01",
+   "type": "gas",
+   "value": 8648
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-06-01",
+   "type": "water",
+   "value": 961416
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-07-01",
+   "type": "electricity",
+   "value": 704081
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-07-01",
+   "type": "gas",
+   "value": 7176
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-07-01",
+   "type": "water",
+   "value": 982547
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-08-01",
+   "type": "electricity",
+   "value": 691730
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-08-01",
+   "type": "gas",
+   "value": 6580
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-08-01",
+   "type": "water",
+   "value": 957027
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-09-01",
+   "type": "electricity",
+   "value": 658436
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-09-01",
+   "type": "gas",
+   "value": 8257
+  },
+  {
+   "site_id": "plant-e",
+   "month": "2026-09-01",
+   "type": "water",
+   "value": 1010402
+  }
+ ],
+ "locked_months": [
+  "2025-12-01"
+ ],
+ "targets": [
+  {
+   "name": "Landfill-free goal",
+   "value": 99,
+   "unit": "percent",
+   "year": null,
+   "source_note": "Matches the goal in a manufacturer's public 2025 sustainability report. Target year not set."
+  }
+ ],
+ "reference": {
+  "title": "Scope 1 net zero roadmap",
+  "source_note": "From a manufacturer's public 2025 sustainability report. Not linked to the sample data above.",
+  "source_url": null,
+  "unit": "MT CO2e",
+  "points": [
+   {
+    "label": "2014",
+    "value": 76828
+   },
+   {
+    "label": "2025",
+    "value": 37434
+   },
+   {
+    "label": "2030",
+    "value": 11524
+   },
+   {
+    "label": "2040 to 2050",
+    "value": 3841
+   }
+  ]
+ }
+}
